@@ -25,7 +25,7 @@ Command | Description | Payload | Answer | Answer payload
 *setAirspeed* | send airspeed data | Yes | No  | No 
 *inspTakeOff* | Arm and take-off procedure | No  | Yes ("OK") | No    
 *startInsp* | Fly to next waypoint to inspect | No  | Yes ("OK") | No     
-*startScan* | Start area scanning | No  |  Yes () | No
+*startScan* | Start area scanning | No  |  Yes ("nextWP") | No
 *nextWP* | Fly to next waypoint | No  | No | No
 *inspLand* | Landing procedure | No  | No | Yes ("landed")
 
